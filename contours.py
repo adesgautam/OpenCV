@@ -22,7 +22,7 @@ while vid.isOpened():
 	
 	# Draw all Contours 
 	contours = cv2.drawContours(coloured, contours, -1, (0,0,255), 2)
-
+	
 	# cv2.imshow('BINARY', image)
 	cv2.imshow('Contours', contours)
 	
